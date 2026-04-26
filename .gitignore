@@ -3,6 +3,16 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore large datasets
+data/sales_train_validation.csv
+
+# Ignore intermediate files
+data/sku_master_enriched.csv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
 # C extensions
 *.so
 
